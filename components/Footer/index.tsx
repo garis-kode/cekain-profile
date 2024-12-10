@@ -77,29 +77,17 @@ const Footer = () => {
                   whileInView="visible"
                   transition={{ duration: 1, delay: 0.1 }}
                   viewport={{ once: true }}
-                  className="animate_top"
+                  className="animate_top mt-auto"
                 >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Contact
-                  </h4>
-                  <ul>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        cekain@gariskode.com
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        office@gariskode.com
-                      </a>
-                    </li>
-                  </ul>
+                  <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
+                    contact
+                  </p>
+                  <a
+                    href="#"
+                    className="text-itemtitle font-medium text-black dark:text-white"
+                  >
+                    cekaingariskode.com
+                  </a>
                 </motion.div>
               </div>
             </div>
