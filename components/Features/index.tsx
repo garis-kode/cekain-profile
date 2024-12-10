@@ -14,7 +14,7 @@ const Feature = () => {
           <SectionHeader
             headerInfo={{
               title: "FEATURES",
-              subtitle: "Key Features of Cekain",
+              subtitle: "Features of Cekain",
               description: `Cekain is designed to make your dining and social experiences better. Explore how our app simplifies bill splitting, making it faster, fairer, and stress-free for everyone in the group.`,
             }}
           />

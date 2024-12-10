@@ -18,8 +18,8 @@ const Hero = () => {
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
               Try It Now – Split Bills Without the Hassle!
               </h4>
-              <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-              Cekain: A.I Bill Splitting for Your Hangouts
+              <h1 className="mb-5 text-4xl font-bold text-black dark:text-white xl:text-5xl ">
+              Cekain: Hangout Jadi Enak
               </h1>
               <p>
               Enjoy a more convenient and efficient dining experience with Cekain, the AI-powered split bill app that makes your hangouts even more fun.
@@ -58,18 +58,20 @@ const Hero = () => {
                   height={21.66}
                   className="absolute -right-[-80px] bottom-0 z-1"
                 />
-                <div className=" relative aspect-[600/444] w-full">
+                <div className=" relative aspect-[600/144] w-full">
                   <Image
                     className="dark:hidden"
-                    src="/images/hero/hero-light.svg"
+                    src="/images/hero/hero-light.png"
                     alt="Hero"
-                    fill
+                    width={3037}
+                    height={1926}                  
                   />
                   <Image
                     className="hidden dark:block"
-                    src="/images/hero/hero-dark.svg"
+                    src="/images/hero/hero-dark.png"
                     alt="Hero"
-                    fill
+                    width={3037}
+                    height={1926}
                   />
                 </div>
               </div>
