@@ -42,7 +42,7 @@ const Header = () => {
           <div className="flex">
             <ThemeToggler />
             <Link
-              href="https://nextjstemplates.com/templates/solid"
+              href="https://app.cekain.com"
               className="rounded-lg bg-primary md:px-7.5 px-7 md:py-2.5 py-2 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
             >
               Get Started

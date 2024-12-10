@@ -123,7 +123,7 @@ const CTA = () => {
             >
               <div className="flex items-center justify-end">
                 <a
-                  href="/auth/signup"
+                  href="https://app.cekain.com/auth/sign-up"
                   className="inline-flex items-center gap-2.5 rounded-full bg-primary px-6 py-3 font-medium text-white hover:opacity-90"
                 >
                   Sign up free
